@@ -20,7 +20,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>صيانة أجهزة وايت ويل | خدمة منزلية فورية</title>
-  <meta name="description" content="مركز صيانة أجهزة وايت ويل. صيانة منزلية فورية لغسالات وثلاجات White Whale في القاهرة والجيزة والإسكندرية. تواصل: 01133705723">
+  <meta name="description" content="مركز صيانة أجهزة وايت ويل. صيانة منزلية فورية لغسالات وثلاجات White Whale في القاهرة (شرق القاهرة) والجيزة والإسكندرية. تواصل: 01133705723">
 
   <!-- Meta Tags الأساسية المساعدة للارتباط والأرشفة -->
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
@@ -86,6 +86,20 @@
         box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
       }
     }
+    .pulsing-call {
+      animation: pulse-ring 2s infinite;
+    }
+    @keyframes pulse-ring {
+      0% {
+        box-shadow: 0 0 0 0 rgba(2, 132, 199, 0.7);
+      }
+      70% {
+        box-shadow: 0 0 0 16px rgba(2, 132, 199, 0);
+      }
+      100% {
+        box-shadow: 0 0 0 0 rgba(2, 132, 199, 0);
+      }
+    }
   </style>
 
   <!-- Complete JSON-LD LocalBusiness & FAQ Schema -->
@@ -138,20 +152,18 @@
           }
         ],
         "areaServed": [
+          { "@type": "AdministrativeArea", "name": "هليوبوليس الجديدة" },
+          { "@type": "AdministrativeArea", "name": "النزهة الجديدة" },
+          { "@type": "AdministrativeArea", "name": "الحلمية" },
+          { "@type": "AdministrativeArea", "name": "ألف مسكن" },
+          { "@type": "AdministrativeArea", "name": "الوايلي" },
+          { "@type": "AdministrativeArea", "name": "عزبة النخل" },
           { "@type": "AdministrativeArea", "name": "مدينة نصر" },
           { "@type": "AdministrativeArea", "name": "مصر الجديدة" },
           { "@type": "AdministrativeArea", "name": "التجمع الخامس" },
           { "@type": "AdministrativeArea", "name": "التجمع الأول" },
           { "@type": "AdministrativeArea", "name": "الرحاب" },
           { "@type": "AdministrativeArea", "name": "مدينتي" },
-          { "@type": "AdministrativeArea", "name": "هليوبوليس الجديدة" },
-          { "@type": "AdministrativeArea", "name": "النزهة الجديدة" },
-          { "@type": "AdministrativeArea", "name": "عين شمس" },
-          { "@type": "AdministrativeArea", "name": "المطرية" },
-          { "@type": "AdministrativeArea", "name": "المرج" },
-          { "@type": "AdministrativeArea", "name": "الحلمية" },
-          { "@type": "AdministrativeArea", "name": "ألف مسكن" },
-          { "@type": "AdministrativeArea", "name": "الوايلي" },
           { "@type": "AdministrativeArea", "name": "المعادي" },
           { "@type": "AdministrativeArea", "name": "مصر القديمة" },
           { "@type": "AdministrativeArea", "name": "حلوان" },
@@ -171,13 +183,7 @@
           { "@type": "AdministrativeArea", "name": "الإسكندرية" },
           { "@type": "AdministrativeArea", "name": "سموحة" },
           { "@type": "AdministrativeArea", "name": "سيدي جابر" },
-          { "@type": "AdministrativeArea", "name": "ميامي" },
-          { "@type": "AdministrativeArea", "name": "سيدي بشر" },
-          { "@type": "AdministrativeArea", "name": "العصافرة" },
-          { "@type": "AdministrativeArea", "name": "المندرة" },
-          { "@type": "AdministrativeArea", "name": "المنتزه" },
-          { "@type": "AdministrativeArea", "name": "العجمي" },
-          { "@type": "AdministrativeArea", "name": "البيطاش" }
+          { "@type": "AdministrativeArea", "name": "ميامي وسيدي بشر" }
         ],
         "sameAs": [
           "https://www.crunchbase.com/organization/مركز-صيانة-اجهزة-وايت-ويل",
@@ -196,26 +202,18 @@
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "هل مركز صيانة وايت ويل يعتبر توكيلاً رسمياً لشركة White Whale؟",
+            "name": "هل تتم صيانة أجهزة White Whale بالمنزل دون نقلها؟",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "لا، نحن مركز صيانة فني ومحلي للأجهزة المنزلية وايت ويل (White Whale)."
+              "text": "نعم، كافة أعمال الفحص وتغيير قطع الغيار وإصلاح أجهزة وايت ويل تتم بنسبة 100% داخل منزل العميل وأمام عينيه دون الحاجة لنقل الجهاز إطلاقاً."
             }
           },
           {
             "@type": "Question",
-            "name": "ما هي المحافظات والمناطق التي تغطيها خدمة صيانة White Whale؟",
+            "name": "ما هي المناطق التي تغطيها خدمة صيانة وايت ويل بتركيز خاص؟",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "نقدم خدمات الصيانة المنزلية حصرياً في محافظات القاهرة الكبرى (مع التركيز على شرق القاهرة)، الجيزة، والإسكندرية بكافة أحيائها عبر فرق فنية متنقلة."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "هل يتم نقل الجهاز إلى مقر المركز لإصلاحه؟",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "إطلاقاً، خدماتنا منزلية بالكامل بنسبة 100% ويتم فحص وإصلاح الأجهزة داخل منزلك وأمام عينيك دون أي نقل."
+              "text": "نقدم خدمات الصيانة المنزلية في القاهرة مع تركيز قوي على أحياء شرق القاهرة (هليوبوليس الجديدة، النزهة، مدينة نصر، مصر الجديدة)، الجيزة، والإسكندرية."
             }
           },
           {
@@ -223,15 +221,7 @@
             "name": "كيف يمكنني طلب خدمة صيانة أجهزة وايت ويل؟",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "يمكنك التواصل معنا عبر الاتصال الهاتفي، أو زر واتساب المباشر، أو ملء نموذج الحجز بالموقع لتنسيق الزيارة فوراً."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "ما هي أنواع أجهزة White Whale التي يشملها الدعم الفني؟",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "نغطي كافة أجهزة وايت ويل وتشمل: غسالات الملابس، الثلاجات، الديب فريزر، البوتاجازات، أفران بلت إن، غسالات الأطباق، التكييفات، والميكروويف والشاشات."
+              "text": "يمكنك التواصل معنا عبر الاتصال الهاتفي المباشر، أو زر واتساب، أو ملء نموذج حجز الزيارة المنزلية بالموقع لتنسيق وصول الفني فوراً."
             }
           }
         ]
@@ -247,8 +237,8 @@
     <div class="max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-2">
       <div class="flex items-center gap-2">
         <span class="inline-block w-2.5 h-2.5 rounded-full bg-emerald-500 animate-ping"></span>
-        <span class="font-bold text-white">خدمة صيانة منزلية فورية لأجهزة وايت ويل (White Whale) في القاهرة (شرق القاهرة) والجيزة والإسكندرية</span>
-        <span class="text-slate-400">| خدمة متنقلة لباب منزلك دون نقل الأجهزة إطلاقاً</span>
+        <span class="font-bold text-white">خدمة منزلية فورية 100% لأجهزة White Whale (تركيز خاص على شرق القاهرة)</span>
+        <span class="text-slate-400">| الفني يصلك لباب البيت دون نقل الأجهزة إطلاقاً</span>
       </div>
       <div class="flex items-center gap-4 text-xs font-semibold text-amber-400">
         <span class="flex items-center gap-1.5"><i class="fa-solid fa-clock"></i> العمل: 08:00 صباحاً – 01:00 منتصف الليل</span>
@@ -268,64 +258,191 @@
             صيانة أجهزة وايت ويل
           </span>
           <p class="text-xs text-slate-500 font-semibold">
-            خدمة منزلية | دعم فني مباشر
+            خدمة منزلية | دعم فني ومباشر
           </p>
         </div>
       </div>
 
       <!-- Header Action Buttons (Combined Call & WhatsApp) -->
-      <div class="flex items-center gap-2">
-        <a href="tel:01133705723" class="inline-flex items-center gap-1.5 bg-wwBlue hover:bg-wwDarkBlue text-white font-black px-3.5 sm:px-4 py-2 rounded-xl shadow-md text-xs sm:text-sm transition-all">
-          <i class="fa-solid fa-phone"></i>
-          <span dir="ltr">01133705723</span>
+      <div class="flex items-center gap-2 sm:gap-3">
+        <a href="https://wa.me/201156174546" target="_blank" class="hidden md:inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-4 py-2.5 rounded-xl shadow-sm text-sm transition-all">
+          <i class="fa-brands fa-whatsapp text-lg"></i>
+          <span>واتساب فني</span>
         </a>
-        <a href="https://wa.me/201156174546" target="_blank" class="inline-flex items-center gap-1.5 bg-emerald-600 hover:bg-emerald-700 text-white font-black px-3.5 sm:px-4 py-2 rounded-xl shadow-md shadow-emerald-600/30 text-xs sm:text-sm transition-all pulsing-wa">
-          <i class="fa-brands fa-whatsapp text-base"></i>
-          <span>واتساب</span>
+        <a href="tel:01133705723" class="inline-flex items-center gap-2 bg-wwBlue hover:bg-wwDarkBlue text-white font-black px-4 sm:px-5 py-2.5 rounded-xl shadow-md shadow-wwBlue/20 text-sm transition-all pulsing-call">
+          <i class="fa-solid fa-phone text-xs animate-bounce"></i>
+          <span>01133705723</span>
         </a>
       </div>
     </div>
   </header>
 
   <!-- Hero Section -->
-  <section class="relative bg-gradient-to-b from-slate-950 via-brandDark to-brandSlate text-white pt-12 pb-20 px-4 overflow-hidden">
+  <section class="relative bg-gradient-to-b from-slate-950 via-brandDark to-brandSlate text-white pt-10 pb-16 px-4 overflow-hidden">
     <div class="absolute -top-32 -left-32 w-96 h-96 bg-wwBlue/25 rounded-full blur-3xl pointer-events-none"></div>
     <div class="absolute -bottom-32 -right-32 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none"></div>
 
-    <div class="max-w-5xl mx-auto relative z-10 text-center">
-      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-950/70 border border-emerald-500/40 text-emerald-300 text-xs sm:text-sm font-bold mb-6 shadow-inner">
-        <i class="fa-solid fa-house-chimney-user text-emerald-400"></i>
-        خدمات منزلية متنقلة تغطي القاهرة (بتركيز خاص على شرق القاهرة)، الجيزة والإسكندرية
+    <div class="max-w-6xl mx-auto relative z-10">
+      <div class="text-center max-w-3xl mx-auto">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-950/70 border border-emerald-500/40 text-emerald-300 text-xs sm:text-sm font-bold mb-5 shadow-inner">
+          <i class="fa-solid fa-house-chimney-user text-emerald-400"></i>
+          خدمات منزلية متنقلة تغطي شرق القاهرة، القاهرة، الجيزة والإسكندرية بالكامل
+        </div>
+
+        <h1 class="text-2xl sm:text-4xl md:text-5xl font-black text-white leading-tight mb-4">
+          مركز صيانة أجهزة <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 via-blue-300 to-amber-200">White Whale</span> وايت ويل
+        </h1>
+        
+        <p class="text-base sm:text-lg text-slate-200 font-medium mb-3">
+          صيانة منزلية فورية لغسالات وثلاجات وديب فريزر وايت ويل في منزلك وأمام عينيك دون نقل الجهاز إطلاقاً.
+        </p>
+
+        <p class="text-xs sm:text-sm text-slate-300 mb-8 max-w-xl mx-auto leading-relaxed">
+          نعتمد على أجهزة الفحص الإلكتروني الحديثة وقطع الغيار المطابقة للمواصفات مع تقديم سند متابعة دورية لضمان كفاءة أجهزة White Whale.
+        </p>
+
+        <!-- Main Action Buttons -->
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-6">
+          <a href="tel:01133705723" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-wwBlue to-sky-600 hover:from-wwDarkBlue hover:to-sky-700 text-white font-black text-base sm:text-lg px-8 py-4 rounded-2xl shadow-xl shadow-wwBlue/40 transition-all transform hover:-translate-y-0.5 pulsing-call">
+            <i class="fa-solid fa-phone-volume text-xl"></i>
+            <span>اتصل الآن بمركز الخدمة: 01133705723</span>
+          </a>
+          <a href="https://wa.me/201156174546" target="_blank" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-emerald-600 hover:bg-emerald-700 text-white font-black text-base sm:text-lg px-8 py-4 rounded-2xl shadow-xl shadow-emerald-600/30 transition-all transform hover:-translate-y-0.5 pulsing-wa">
+            <i class="fa-brands fa-whatsapp text-2xl"></i>
+            <span>التواصل عبر واتساب</span>
+          </a>
+        </div>
+
+        <div class="flex flex-wrap items-center justify-center gap-4 text-xs text-slate-400">
+          <span class="flex items-center gap-1.5"><i class="fa-solid fa-ban text-rose-400"></i> بدون نقل الجهاز إطلاقاً</span>
+          <span class="flex items-center gap-1.5"><i class="fa-solid fa-file-shield text-emerald-400"></i> سند متابعة صيانة</span>
+          <span class="flex items-center gap-1.5"><i class="fa-solid fa-clock text-amber-400"></i> خدمة فورية حتى 01:00 صباحاً</span>
+        </div>
       </div>
 
-      <h1 class="text-2xl sm:text-4xl md:text-5xl font-black text-white leading-tight mb-6">
-        مركز صيانة أجهزة <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 via-blue-300 to-amber-200">White Whale</span> وايت ويل
-      </h1>
-      
-      <p class="text-base sm:text-lg text-slate-300 font-normal leading-relaxed mb-6 max-w-3xl mx-auto">
-        صيانة وايت ويل White Whale تقدم لكم منظومة صيانة منزلية متكاملة وعالية الدقة تغطي كافة أجهزة White Whale المنزلية في القاهرة، الجيزة والإسكندرية. نعتمد في عملنا على أجهزة الفحص الإلكتروني الحديثة والمتطورة لاكتشاف أعطال أجهزة وايت ويل بدقة تامة دون الحاجة نهائياً لنقل الجهاز من منزلك. هدفنا توفير خدمة فحص وإصلاح سريعة لمنتجات White Whale عبر فريق فني متخصص يرتكز على استخدام قطع الغيار المطابقة للمواصفات الفنية مع تقديم سند متابعة ومتابعة دورية.
-      </p>
+      <!-- Booking / Repair Form (Linked dynamically from cards) -->
+      <div id="booking-section" class="mt-12 max-w-3xl mx-auto bg-gradient-to-br from-[#0a192f] via-[#0d213f] to-[#112240] rounded-3xl p-6 sm:p-9 border-2 border-sky-400/40 shadow-2xl shadow-black/60 relative overflow-hidden">
+        <div class="absolute -top-16 -right-16 w-44 h-44 bg-sky-400/10 rounded-full blur-2xl pointer-events-none"></div>
+        <div class="relative z-10">
+          <div class="flex flex-wrap items-center justify-between gap-3 mb-6 pb-4 border-b border-slate-700">
+            <div>
+              <span class="inline-block bg-sky-400/20 text-sky-300 border border-sky-400/30 text-xs font-bold px-3 py-1 rounded-full mb-2">
+                حجز زيارة منزلية
+              </span>
+              <h2 class="text-xl sm:text-2xl font-black text-white">طلب فحص وصيانة منزلية لأجهزة White Whale</h2>
+            </div>
+            <div class="text-left">
+              <span class="text-sky-400 text-xs font-semibold block">إرسال الفني لباب بيتك</span>
+              <span class="text-slate-300 text-[11px]">تأكيد الحجز فوراً</span>
+            </div>
+          </div>
 
-      <p class="text-xs sm:text-sm text-slate-400 mb-10 max-w-2xl mx-auto leading-relaxed">
-        سواء كانت أعطال غسالات White Whale أو ثلاجات وايت ويل أو الديب فريزر والتكييفات، فإن خبرتنا تضمن لك كفاءة تشغيل مثالية لجهازك في القاهرة والجيزة والإسكندرية.
-      </p>
+          <!-- Direct Form -->
+          <form id="maintenanceForm" action="https://formsubmit.co/ed3mnyit@gmail.com" method="POST" class="space-y-4" onsubmit="handleFormSubmission(event)">
+            <input type="hidden" name="_subject" value="طلب صيانة منزلية وايت ويل جديد - القاهرة والإسكندرية">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
 
-      <!-- Main Action Button (WhatsApp) -->
-      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10">
-        <a href="https://wa.me/201156174546" target="_blank" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-emerald-600 to-emerald-700 hover:from-emerald-500 hover:to-emerald-600 text-white font-black text-base sm:text-lg px-8 py-4 rounded-2xl shadow-xl shadow-emerald-600/40 transition-all transform hover:-translate-y-0.5 pulsing-wa">
-          <i class="fa-brands fa-whatsapp text-2xl"></i>
-          <span>تواصل معنا عبر واتساب: 01156174546</span>
-        </a>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <!-- Name -->
+              <div>
+                <label for="custName" class="block text-xs font-bold text-slate-200 mb-1.5">الاسم بالكامل *</label>
+                <div class="relative">
+                  <span class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none text-slate-400">
+                    <i class="fa-solid fa-user"></i>
+                  </span>
+                  <input type="text" id="custName" name="اسم_العميل" required placeholder="أدخل اسمك" class="w-full pr-10 pl-3 py-3 rounded-xl bg-slate-900/90 border border-slate-600 text-white text-sm placeholder-slate-400 focus:outline-none focus:border-sky-400 focus:ring-1 focus:ring-sky-400 transition-all">
+                </div>
+              </div>
+
+              <!-- Phone -->
+              <div>
+                <label for="custPhone" class="block text-xs font-bold text-slate-200 mb-1.5">رقم التليفون للتواصل *</label>
+                <div class="relative">
+                  <span class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none text-slate-400">
+                    <i class="fa-solid fa-phone"></i>
+                  </span>
+                  <input type="tel" id="custPhone" name="رقم_التليفون" required placeholder="01xxxxxxxxx" dir="ltr" class="w-full pr-10 pl-3 py-3 rounded-xl bg-slate-900/90 border border-slate-600 text-white text-sm placeholder-slate-400 focus:outline-none focus:border-sky-400 focus:ring-1 focus:ring-sky-400 transition-all text-right">
+                </div>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <!-- Appliance Type -->
+              <div>
+                <label for="applianceType" class="block text-xs font-bold text-slate-200 mb-1.5">اختر جهاز وايت ويل (White Whale) *</label>
+                <select id="applianceType" name="نوع_الجهاز" required class="w-full px-3 py-3 rounded-xl bg-slate-900/90 border border-slate-600 text-white text-sm focus:outline-none focus:border-sky-400 focus:ring-1 focus:ring-sky-400 transition-all">
+                  <option value="" disabled selected class="text-slate-400">اختر الجهاز المطلوب صيانته</option>
+                  <option value="غسالة ملابس وايت ويل White Whale">غسالة ملابس وايت ويل White Whale (أوتوماتيك / فوق)</option>
+                  <option value="ثلاجة وايت ويل White Whale">ثلاجة وايت ويل White Whale (نوفروست / ديجيتال)</option>
+                  <option value="ديب فريزر وايت ويل White Whale">ديب فريزر وايت ويل White Whale رأسي وأفقي</option>
+                  <option value="بوتاجاز وايت ويل White Whale">بوتاجاز وايت ويل White Whale وأفران بلت إن</option>
+                  <option value="تكييف أو غسالة أطباق وايت ويل">تكييف أو غسالة أطباق وايت ويل</option>
+                  <option value="ميكروويف أو شاشة وايت ويل">ميكروويف أو شاشة وايت ويل</option>
+                </select>
+              </div>
+
+              <!-- Area / City -->
+              <div>
+                <label for="areaLocation" class="block text-xs font-bold text-slate-200 mb-1.5">المنطقة (شرق القاهرة، القاهرة، الجيزة، الإسكندرية) *</label>
+                <input type="text" id="areaLocation" name="منطقة_الخدمة" required placeholder="مثال: هليوبوليس الجديدة، مدينة نصر، سموحة..." class="w-full px-3 py-3 rounded-xl bg-slate-900/90 border border-slate-600 text-white text-sm placeholder-slate-400 focus:outline-none focus:border-sky-400 focus:ring-1 focus:ring-sky-400 transition-all">
+              </div>
+            </div>
+
+            <!-- Details -->
+            <div>
+              <label for="issueDetails" class="block text-xs font-bold text-slate-200 mb-1.5">وصف العطل في الجهاز (اختياري)</label>
+              <textarea id="issueDetails" name="وصف_العطل" rows="2" placeholder="اكتب تفاصيل المشكلة باختصار..." class="w-full p-3 rounded-xl bg-slate-900/90 border border-slate-600 text-white text-sm placeholder-slate-400 focus:outline-none focus:border-sky-400 focus:ring-1 focus:ring-sky-400 transition-all"></textarea>
+            </div>
+
+            <!-- Submit Button & Feedback -->
+            <div class="pt-2 flex flex-col sm:flex-row items-center gap-3">
+              <button type="submit" id="submitBtn" class="w-full sm:flex-1 bg-gradient-to-r from-sky-400 to-sky-500 hover:from-sky-300 hover:to-sky-400 text-slate-950 font-black py-3.5 px-6 rounded-xl shadow-lg shadow-sky-500/20 text-base transition-all flex items-center justify-center gap-2 transform active:scale-95">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span id="btnText">إرسال طلب الزيارة المنزلية</span>
+              </button>
+              <a href="tel:01133705723" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-slate-800 hover:bg-slate-700 text-white font-bold py-3.5 px-5 rounded-xl border border-slate-600 text-sm transition-all">
+                <i class="fa-solid fa-phone text-sky-400"></i>
+                <span>اتصال فوري</span>
+              </a>
+            </div>
+
+            <!-- Success Box -->
+            <div id="formSuccessMessage" class="hidden p-4 rounded-xl bg-emerald-950/80 border border-emerald-500 text-emerald-200 text-xs sm:text-sm text-center">
+              <i class="fa-solid fa-circle-check text-emerald-400 text-lg ml-1"></i>
+              تم إرسال طلبكم بنجاح! سيتم التواصل معكم هاتفياً خلال دقائق لتأكيد موعد وصول الفني إلى منزلكم.
+            </div>
+          </form>
+        </div>
       </div>
 
-      <div class="flex flex-wrap items-center justify-center gap-6 text-xs sm:text-sm text-slate-300">
-        <span class="flex items-center gap-2"><i class="fa-solid fa-house-chimney text-sky-400"></i> خدمات منزلية بالكامل</span>
-        <span class="flex items-center gap-2"><i class="fa-solid fa-map-location-dot text-emerald-400"></i> شرق القاهرة، الجيزة والإسكندرية</span>
+      <!-- Trust Pillars -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 mt-12 max-w-4xl mx-auto">
+        <div class="bg-slate-900/70 border border-slate-800 p-4 rounded-2xl text-center backdrop-blur-sm">
+          <i class="fa-solid fa-couch text-2xl text-sky-400 mb-2"></i>
+          <h4 class="font-bold text-sm text-slate-100">وأنت في بيتك</h4>
+          <p class="text-xs text-slate-400 mt-1">كشف وإصلاح شامل بالمنزل</p>
+        </div>
+        <div class="bg-slate-900/70 border border-slate-800 p-4 rounded-2xl text-center backdrop-blur-sm">
+          <i class="fa-solid fa-truck-ramp-box text-2xl text-rose-400 mb-2"></i>
+          <h4 class="font-bold text-sm text-slate-100">بدون نقل الجهاز</h4>
+          <p class="text-xs text-slate-400 mt-1">حماية جهازك من التجريح والنقل</p>
+        </div>
+        <div class="bg-slate-900/70 border border-slate-800 p-4 rounded-2xl text-center backdrop-blur-sm">
+          <i class="fa-solid fa-microchip text-2xl text-emerald-400 mb-2"></i>
+          <h4 class="font-bold text-sm text-slate-100">قطع غيار موثوقة</h4>
+          <p class="text-xs text-slate-400 mt-1">تركيب مكونات مطابقة لمواصفات White Whale</p>
+        </div>
+        <div class="bg-slate-900/70 border border-slate-800 p-4 rounded-2xl text-center backdrop-blur-sm">
+          <i class="fa-solid fa-file-shield text-2xl text-blue-400 mb-2"></i>
+          <h4 class="font-bold text-sm text-slate-100">سند متابعة فنية</h4>
+          <p class="text-xs text-slate-400 mt-1">متابعة تشغيل بعد إتمام الصيانة</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Expanded Products Catalog (Cards linked to contact form) -->
+  <!-- Expanded Products Catalog (Cards linked directly to form) -->
   <section class="py-16 px-4 bg-slate-100">
     <div class="max-w-6xl mx-auto">
       <div class="text-center mb-12">
@@ -334,7 +451,7 @@
           تفاصيل منتجات وأجهزة وايت ويل White Whale المشمولة بالصيانة المنزلية
         </h2>
         <p class="text-slate-600 text-sm max-w-2xl mx-auto mt-2">
-          نقدم خدمات صيانة منزلية لجميع موديلات White Whale في القاهرة، الجيزة والإسكندرية.
+          نقدم خدمات صيانة منزلية لجميع موديلات White Whale في شرق القاهرة، القاهرة، الجيزة والإسكندرية.
         </p>
       </div>
 
@@ -349,7 +466,7 @@
             </div>
             <h3 class="text-xl font-black text-slate-900 mb-3">صيانة غسالات وايت ويل White Whale</h3>
             <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-4">
-              نقدم خدمة إصلاح منزلية متكاملة لجميع موديلات غسالات وايت ويل (White Whale washing machines) الفول أوتوماتيك، الفوق أوتوماتيك، ومجففات وايت ويل. نتعامل بكفاءة مطلقة مع أعطال طلمبات الطرد، تلف البلي، مشاكل السحب والصرف، وبرمجة الكروت الإلكترونية لأجهزة White Whale. الخدمة تتم بالمنزل في القاهرة، الجيزة والإسكندرية دون الحاجة لنقل غسالات وايت ويل نهائياً.
+              نقدم خدمة إصلاح منزلية متكاملة لجميع موديلات غسالات وايت ويل (White Whale washing machines) الفول أوتوماتيك، الفوق أوتوماتيك، ومجففات وايت ويل. نتعامل بكفاءة مطلقة مع أعطال طلمبات الطرد، تلف البلي، مشاكل السحب والصرف، وبرمجة الكروت الإلكترونية لأجهزة White Whale في منزلك دون نقل الغسالة.
             </p>
             <ul class="text-xs text-slate-600 space-y-2 mb-6 bg-slate-50 p-4 rounded-2xl border border-slate-100">
               <li><i class="fa-solid fa-check text-emerald-600 ml-1.5"></i> فحص أعطال غسالات White Whale بالكمبيوتر</li>
@@ -373,7 +490,7 @@
             </div>
             <h3 class="text-xl font-black text-slate-900 mb-3">صيانة ثلاجات وايت ويل White Whale</h3>
             <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-4">
-              نختص بإصلاح كافة أعطال ثلاجات وديب فريزر وايت ويل (White Whale refrigerators)، بما في ذلك ثلاجات البابين، الديجيتال، والثلاجات العملاقة Side by Side. نعالج مشاكل ضعف التبريد، انسداد مواسير الفريون، أعطال الكباسات، تسريب المياه، ودورات إذابة الثلج التلقائية لمنتجات White Whale باستخدام أجهزة قياس الضغط وشحن فريون بالمنزل في القاهرة، الجيزة والإسكندرية.
+              نختص بإصلاح كافة أعطال ثلاجات وديب فريزر وايت ويل (White Whale refrigerators)، بما في ذلك ثلاجات البابين، الديجيتال، والثلاجات العملاقة Side by Side. نعالج مشاكل ضعف التبريد، انسداد مواسير الفريون، أعطال الكباسات، وتسريب المياه بالمنزل.
             </p>
             <ul class="text-xs text-slate-600 space-y-2 mb-6 bg-slate-50 p-4 rounded-2xl border border-slate-100">
               <li><i class="fa-solid fa-check text-emerald-600 ml-1.5"></i> علاج تسريب ثلاجات White Whale وشحن الدائرة</li>
@@ -397,7 +514,7 @@
             </div>
             <h3 class="text-xl font-black text-slate-900 mb-3">صيانة ديب فريزر وايت ويل White Whale</h3>
             <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-4">
-              نقدم حلولاً جذرية لأعطال ديب فريزر وايت ويل (White Whale freezers) الرأسي والأفقي لضمان حفظ الأطعمة. نتعامل باحترافية مع مشاكل توقف التجميد، تكوين الثلج الزائد، أعطال لوحات التحكم الرقمية، واستبدال كاوتش الأبواب المغناطيسي لديب فريزر White Whale لضمان الإحكام التام. الخدمة منزلية بالكامل في القاهرة، الجيزة والإسكندرية دون تحريك الجهاز.
+              نقدم حلولاً جذرية لأعطال ديب فريزر وايت ويل (White Whale freezers) الرأسي والأفقي. نتعامل باحترافية مع مشاكل توقف التجميد، تكوين الثلج الزائد، واستبدال كاوتش الأبواب المغناطيسي لديب فريزر White Whale بالكامل داخل منزلك.
             </p>
             <ul class="text-xs text-slate-600 space-y-2 mb-6 bg-slate-50 p-4 rounded-2xl border border-slate-100">
               <li><i class="fa-solid fa-check text-emerald-600 ml-1.5"></i> صيانة ديب فريزر White Whale 5 و 6 و 7 درج</li>
@@ -421,7 +538,7 @@
             </div>
             <h3 class="text-xl font-black text-slate-900 mb-3">صيانة بوتاجازات وايت ويل White Whale</h3>
             <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-4">
-              نحافظ على أمان وسلامة مطبخك من خلال صيانة بوتاجازات وأفران وايت ويل (White Whale cookers & built-in ovens). نقوم بتصليح عيون البوتاجاز، تغيير المفاتيح التالفة، صيانة نظام الإشعال الذاتي، ضبط ترموستات الحرارة للأفران والشوايات، وتغيير زجاج الباب لأجهزة White Whale داخل منزلك في القاهرة، الجيزة والإسكندرية بكل أمان وبدون أي نقل للبوتاجاز.
+              نحافظ على أمان مطبخك من خلال صيانة بوتاجازات وأفران وايت ويل (White Whale cookers & built-in ovens). نقوم بتصليح عيون البوتاجاز، المفاتيح التالفة، الإشعال الذاتي، وترموستات الحرارة للأفران بالمنزل بكل أمان.
             </p>
             <ul class="text-xs text-slate-600 space-y-2 mb-6 bg-slate-50 p-4 rounded-2xl border border-slate-100">
               <li><i class="fa-solid fa-check text-emerald-600 ml-1.5"></i> إصلاح بوتاجازات White Whale 4 و 5 شعلة</li>
@@ -445,7 +562,7 @@
             </div>
             <h3 class="text-xl font-black text-slate-900 mb-3">صيانة تكييفات وايت ويل White Whale</h3>
             <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-4">
-              نضمن لك تبريداً مثالياً مع خدماتنا المتخصصة لصيانة تكييفات وايت ويل (White Whale air conditioners). نقوم بأعمال التنظيف الشامل للفلاتر والدورة الهوائية، فحص شحنة الفريون وضغط الضغوط، صيانة بوردات الكنترول، ومعالجة تساقط المياه من الوحدة الداخلية لتكييفات White Whale لضمان أعلى كفاءة وتوفير الطاقة في القاهرة، الجيزة والإسكندرية.
+              نضمن لك تبريداً مثالياً مع خدماتنا المتخصصة لصيانة تكييفات وايت ويل (White Whale air conditioners). تنظيف الفلاتر، فحص شحنة الفريون، صيانة بوردات الكنترول، ومعالجة تساقط المياه في منزلك.
             </p>
             <ul class="text-xs text-slate-600 space-y-2 mb-6 bg-slate-50 p-4 rounded-2xl border border-slate-100">
               <li><i class="fa-solid fa-check text-emerald-600 ml-1.5"></i> فحص كفاءة كباس تكييفات White Whale</li>
@@ -454,7 +571,7 @@
             </ul>
           </div>
           <div>
-            <button type="button" onclick="selectAppliance('ميكروويف أو تكييف وايت ويل White Whale')" class="w-full py-3.5 bg-wwBlue hover:bg-wwDarkBlue text-white font-bold rounded-xl text-center text-xs sm:text-sm transition-colors flex items-center justify-center gap-2 shadow-md">
+            <button type="button" onclick="selectAppliance('تكييف أو غسالة أطباق وايت ويل')" class="w-full py-3.5 bg-wwBlue hover:bg-wwDarkBlue text-white font-bold rounded-xl text-center text-xs sm:text-sm transition-colors flex items-center justify-center gap-2 shadow-md">
               <i class="fa-solid fa-pen-to-square text-base"></i> احجز صيانة التكييفات الآن
             </button>
           </div>
@@ -469,7 +586,7 @@
             </div>
             <h3 class="text-xl font-black text-slate-900 mb-3">صيانة ميكروويف وشاشات وايت ويل White Whale</h3>
             <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-4">
-              نقدم دعم فني دقيق لأجهزة الترفيه والمطبخ من وايت ويل (White Whale microwaves & TVs) تشمل الشاشات وأفران الميكروويف. نعالج أعطال الماجنترون وضعف التسخين بالميكروويف، وصيانة كروت الباور، وتغيير مساطر الإضاءة (الـ ليد) لشاشات White Whale بدقة متناهية وبقطع غيار موثوقة في القاهرة، الجيزة والإسكندرية بالمنزل.
+              نقدم دعم فني دقيق لأجهزة الترفيه والمطبخ من وايت ويل (White Whale microwaves & TVs). نعالج أعطال الماجنترون بالميكروويف، وتغيير مساطر الإضاءة (الليد) لشاشات White Whale بدقة متناهية بالمنزل.
             </p>
             <ul class="text-xs text-slate-600 space-y-2 mb-6 bg-slate-50 p-4 rounded-2xl border border-slate-100">
               <li><i class="fa-solid fa-check text-emerald-600 ml-1.5"></i> إصلاح كروت ميكروويف وشاشات White Whale</li>
@@ -478,7 +595,7 @@
             </ul>
           </div>
           <div>
-            <button type="button" onclick="selectAppliance('ميكروويف أو تكييف وايت ويل White Whale')" class="w-full py-3.5 bg-wwBlue hover:bg-wwDarkBlue text-white font-bold rounded-xl text-center text-xs sm:text-sm transition-colors flex items-center justify-center gap-2 shadow-md">
+            <button type="button" onclick="selectAppliance('ميكروويف أو شاشة وايت ويل')" class="w-full py-3.5 bg-wwBlue hover:bg-wwDarkBlue text-white font-bold rounded-xl text-center text-xs sm:text-sm transition-colors flex items-center justify-center gap-2 shadow-md">
               <i class="fa-solid fa-pen-to-square text-base"></i> احجز صيانة الشاشات الآن
             </button>
           </div>
@@ -488,93 +605,7 @@
     </div>
   </section>
 
-  <!-- Contact Form Section -->
-  <section id="contactFormSection" class="py-16 px-4 bg-slate-900 text-white">
-    <div class="max-w-3xl mx-auto">
-      <div class="bg-gradient-to-br from-[#0a192f] via-[#0d213f] to-[#112240] rounded-3xl p-6 sm:p-10 border-2 border-sky-400/40 shadow-2xl relative overflow-hidden">
-        <div class="absolute -top-16 -right-16 w-44 h-44 bg-sky-400/10 rounded-full blur-2xl pointer-events-none"></div>
-        <div class="relative z-10">
-          <div class="flex flex-wrap items-center justify-between gap-3 mb-8 pb-4 border-b border-slate-700">
-            <div>
-              <span class="inline-block bg-sky-400/20 text-sky-300 border border-sky-400/30 text-xs font-bold px-3 py-1 rounded-full mb-2">
-                حجز فوري عبر واتساب
-              </span>
-              <h2 class="text-xl sm:text-2xl font-black text-white">إرسال تفاصيل عطل جهاز White Whale</h2>
-            </div>
-            <div class="text-left">
-              <span class="text-sky-400 text-xs font-semibold block">استجابة فورية</span>
-              <span class="text-slate-300 text-[11px]">تنسيق موعد الفني فوراً</span>
-            </div>
-          </div>
-
-          <!-- Direct WhatsApp Form Generator -->
-          <form id="whatsappForm" onsubmit="sendToWhatsApp(event)" class="space-y-5">
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
-              <!-- Name -->
-              <div>
-                <label for="custName" class="block text-xs font-bold text-slate-200 mb-1.5">الاسم بالكامل *</label>
-                <div class="relative">
-                  <span class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none text-slate-400">
-                    <i class="fa-solid fa-user"></i>
-                  </span>
-                  <input type="text" id="custName" required placeholder="أدخل اسمك" class="w-full pr-10 pl-3 py-3 rounded-xl bg-slate-900/90 border border-slate-600 text-white text-sm placeholder-slate-400 focus:outline-none focus:border-sky-400 focus:ring-1 focus:ring-sky-400 transition-all">
-                </div>
-              </div>
-
-              <!-- Phone / WhatsApp Number -->
-              <div>
-                <label for="custPhone" class="block text-xs font-bold text-slate-200 mb-1.5">رقم الموبايل للتواصل *</label>
-                <div class="relative">
-                  <span class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none text-slate-400">
-                    <i class="fa-solid fa-phone"></i>
-                  </span>
-                  <input type="tel" id="custPhone" required placeholder="01xxxxxxxxx" dir="ltr" class="w-full pr-10 pl-3 py-3 rounded-xl bg-slate-900/90 border border-slate-600 text-white text-sm placeholder-slate-400 focus:outline-none focus:border-sky-400 focus:ring-1 focus:ring-sky-400 transition-all text-right">
-                </div>
-              </div>
-            </div>
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
-              <!-- Appliance Type -->
-              <div>
-                <label for="applianceType" class="block text-xs font-bold text-slate-200 mb-1.5">اختر جهاز وايت ويل (White Whale) *</label>
-                <select id="applianceType" required class="w-full px-3 py-3 rounded-xl bg-slate-900/90 border border-slate-600 text-white text-sm focus:outline-none focus:border-sky-400 focus:ring-1 focus:ring-sky-400 transition-all">
-                  <option value="" disabled selected class="text-slate-400">اختر الجهاز المطلوب صيانته</option>
-                  <option value="غسالة ملابس وايت ويل White Whale">غسالة ملابس وايت ويل White Whale (أوتوماتيك / فوق أوتوماتيك)</option>
-                  <option value="ثلاجة وايت ويل White Whale">ثلاجة وايت ويل White Whale (نوفروست / ديفروست)</option>
-                  <option value="ديب فريزر وايت ويل White Whale">ديب فريزر وايت ويل White Whale رأسي وأفقي</option>
-                  <option value="بوتاجاز وايت ويل White Whale">بوتاجاز وايت ويل White Whale وأفران بلت إن</option>
-                  <option value="غسالة أطباق وايت ويل White Whale">غسالة أطباق وايت ويل White Whale</option>
-                  <option value="ميكروويف أو تكييف وايت ويل White Whale">ميكروويف أو تكييف وايت ويل White Whale</option>
-                </select>
-              </div>
-
-              <!-- Area / City -->
-              <div>
-                <label for="areaLocation" class="block text-xs font-bold text-slate-200 mb-1.5">المنطقة (شرق القاهرة، الجيزة، الإسكندرية) *</label>
-                <input type="text" id="areaLocation" required placeholder="مثال: مدينة نصر، هليوبوليس الجديدة، الهرم..." class="w-full px-3 py-3 rounded-xl bg-slate-900/90 border border-slate-600 text-white text-sm placeholder-slate-400 focus:outline-none focus:border-sky-400 focus:ring-1 focus:ring-sky-400 transition-all">
-              </div>
-            </div>
-
-            <!-- Details -->
-            <div>
-              <label for="issueDetails" class="block text-xs font-bold text-slate-200 mb-1.5">وصف العطل في الجهاز (اختياري)</label>
-              <textarea id="issueDetails" rows="3" placeholder="اكتب تفاصيل المشكلة باختصار..." class="w-full p-3 rounded-xl bg-slate-900/90 border border-slate-600 text-white text-sm placeholder-slate-400 focus:outline-none focus:border-sky-400 focus:ring-1 focus:ring-sky-400 transition-all"></textarea>
-            </div>
-
-            <!-- Submit Button to WhatsApp -->
-            <div class="pt-2">
-              <button type="submit" class="w-full bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-400 hover:to-emerald-500 text-slate-950 font-black py-4 px-6 rounded-2xl shadow-lg shadow-emerald-500/20 text-base transition-all flex items-center justify-center gap-2 transform active:scale-95">
-                <i class="fa-brands fa-whatsapp text-2xl text-white"></i>
-                <span class="text-white">إرسال الطلب عبر واتساب</span>
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Service Coverage Map Section with Expanded East Cairo Districts Tags -->
+  <!-- Service Coverage Map Section with East Cairo Focus -->
   <section class="py-16 px-4 bg-white border-y border-slate-200">
     <div class="max-w-6xl mx-auto">
       <div class="text-center mb-12">
@@ -583,7 +614,7 @@
           نغطي كافة أحياء شرق القاهرة والقاهرة والجيزة والإسكندرية لخدمة أجهزة White Whale
         </h2>
         <p class="text-slate-600 text-sm max-w-2xl mx-auto mt-2">
-          خدماتنا منزلية متنقلة تغطي مناطق شرق القاهرة والقاهرة الكبرى والجيزة والإسكندرية عبر فرق فنية مجهزة.
+          خدماتنا منزلية متنقلة تغطي مناطق شرق القاهرة والقاهرة الكبرى والجيزة والإسكندرية عبر فرق فنية مجهزة بأحدث أدوات الفحص.
         </p>
       </div>
 
@@ -640,7 +671,7 @@
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-        <!-- Coverage Info Card (Showing Phone Number instead of WhatsApp) -->
+        <!-- Coverage Info Card (Showing Phone Number) -->
         <div class="lg:col-span-5 bg-slate-50 border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-sm">
           <div class="flex items-center gap-3 pb-6 border-b border-slate-200 mb-6">
             <div class="w-12 h-12 rounded-2xl bg-wwBlue text-white flex items-center justify-center text-xl font-black shrink-0 shadow-md shadow-wwBlue/30">
@@ -668,7 +699,7 @@
               </div>
             </div>
 
-            <!-- Displaying Phone Number here as requested -->
+            <!-- Phone Number Displayed -->
             <div class="flex items-start gap-3">
               <div class="w-9 h-9 rounded-xl bg-blue-100 text-wwBlue flex items-center justify-center shrink-0 mt-0.5">
                 <i class="fa-solid fa-phone text-lg"></i>
@@ -735,16 +766,16 @@
     </div>
   </section>
 
-  <!-- FAQ Section -->
-  <section class="py-16 px-4 bg-slate-100 border-t border-slate-200">
+  <!-- Interactive FAQ Section -->
+  <section class="py-14 px-4 bg-slate-100 border-t border-slate-200">
     <div class="max-w-4xl mx-auto">
-      <div class="text-center mb-12">
-        <span class="text-xs sm:text-sm font-bold text-wwBlue uppercase tracking-wider">أسئلة شائعة</span>
-        <h2 class="text-2xl sm:text-4xl font-extrabold text-slate-900 mt-2">
+      <div class="text-center mb-10">
+        <span class="text-xs sm:text-sm font-bold text-wwBlue uppercase tracking-wider">إجابات فورية</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1">
           الأسئلة الشائعة حول صيانة أجهزة وايت ويل White Whale
         </h2>
         <p class="text-slate-600 text-sm max-w-xl mx-auto mt-2">
-          إجابات شاملة لكل ما تحتاج معرفته عن خدمات الصيانة المنزلية لأجهزة وايت ويل.
+          كل ما تحتاج معرفته عن خطوات الخدمة المنزلية، قطع الغيار، ومواعيد وصول الفني لباب بيتك.
         </p>
       </div>
 
@@ -754,12 +785,12 @@
           <button type="button" onclick="toggleFaq(1)" class="w-full p-5 text-right font-bold text-slate-900 flex items-center justify-between gap-4 hover:bg-slate-50 transition-colors">
             <span class="text-sm sm:text-base flex items-center gap-2">
               <i class="fa-solid fa-circle-question text-wwBlue"></i>
-              هل مركز صيانة وايت ويل يعتبر توكيلاً رسمياً لشركة White Whale؟
+              هل تتم صيانة أجهزة White Whale بالكامل داخل منزلي دون نقلها؟
             </span>
             <i id="faq-icon-1" class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-300"></i>
           </button>
           <div id="faq-answer-1" class="hidden px-5 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
-            لا، نحن مركز صيانة فني ومحلي للأجهزة المنزلية وايت ويل (White Whale).
+            نعم، بنسبة 100% تتم كافة أعمال الفحص، كشف الأعطال بالكمبيوتر، وتغيير قطع الغيار التالفة داخل منزلك وأمام عينيك دون نقل الجهاز.
           </div>
         </div>
 
@@ -768,12 +799,12 @@
           <button type="button" onclick="toggleFaq(2)" class="w-full p-5 text-right font-bold text-slate-900 flex items-center justify-between gap-4 hover:bg-slate-50 transition-colors">
             <span class="text-sm sm:text-base flex items-center gap-2">
               <i class="fa-solid fa-circle-question text-wwBlue"></i>
-              ما هي المحافظات والمناطق التي تغطيها خدمة صيانة White Whale؟
+              ما هي المناطق التي تغطيها خدمة صيانة وايت ويل بتركيز خاص؟
             </span>
             <i id="faq-icon-2" class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-300"></i>
           </button>
           <div id="faq-answer-2" class="hidden px-5 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
-            نقدم خدمات الصيانة المنزلية حصرياً في محافظات القاهرة (مع التركيز على أحياء شرق القاهرة)، الجيزة، والإسكندرية بكافة أحيائها عبر فرق فنية متنقلة.
+            نقدم خدمات الصيانة المنزلية في القاهرة مع تركيز قوي على أحياء شرق القاهرة (هليوبوليس الجديدة، النزهة الجديدة، مدينة نصر، مصر الجديدة)، الجيزة، والإسكندرية.
           </div>
         </div>
 
@@ -782,40 +813,12 @@
           <button type="button" onclick="toggleFaq(3)" class="w-full p-5 text-right font-bold text-slate-900 flex items-center justify-between gap-4 hover:bg-slate-50 transition-colors">
             <span class="text-sm sm:text-base flex items-center gap-2">
               <i class="fa-solid fa-circle-question text-wwBlue"></i>
-              هل يجب عليّ نقل الجهاز إلى مقر المركز لإصلاحه؟
+              كيف يمكنني طلب خدمة صيانة أجهزة وايت ويل؟
             </span>
             <i id="faq-icon-3" class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-300"></i>
           </button>
           <div id="faq-answer-3" class="hidden px-5 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
-            إطلاقاً، خدماتنا منزلية بالكامل بنسبة 100%. ويتم فحص وإصلاح أجهزة وايت ويل White Whale داخل منزلك وأمام عينيك دون أي نقل.
-          </div>
-        </div>
-
-        <!-- FAQ 4 -->
-        <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
-          <button type="button" onclick="toggleFaq(4)" class="w-full p-5 text-right font-bold text-slate-900 flex items-center justify-between gap-4 hover:bg-slate-50 transition-colors">
-            <span class="text-sm sm:text-base flex items-center gap-2">
-              <i class="fa-solid fa-circle-question text-wwBlue"></i>
-              كيف يمكنني طلب خدمة صيانة أجهزة وايت ويل؟
-            </span>
-            <i id="faq-icon-4" class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-300"></i>
-          </button>
-          <div id="faq-answer-4" class="hidden px-5 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
-            يمكنك بكل سهولة التواصل معنا عبر الاتصال الهاتفي، أو عبر واتساب المباشر، أو ملء نموذج الحجز بالموقع لتنسيق الزيارة فوراً.
-          </div>
-        </div>
-
-        <!-- FAQ 5 -->
-        <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
-          <button type="button" onclick="toggleFaq(5)" class="w-full p-5 text-right font-bold text-slate-900 flex items-center justify-between gap-4 hover:bg-slate-50 transition-colors">
-            <span class="text-sm sm:text-base flex items-center gap-2">
-              <i class="fa-solid fa-circle-question text-wwBlue"></i>
-              ما هي أنواع أجهزة White Whale التي يشملها الدعم الفني؟
-            </span>
-            <i id="faq-icon-5" class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-300"></i>
-          </button>
-          <div id="faq-answer-5" class="hidden px-5 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
-            نغطي كافة أجهزة وايت ويل وتشمل: غسالات الملابس وايت ويل، الثلاجات، الديب فريزر، بوتاجازات وأفران بلت إن وايت ويل، غسالات الأطباق، التكييفات، والميكروويف وشاشات White Whale.
+            يمكنك بكل سهولة التواصل معنا عبر الاتصال الهاتفي المباشر، أو عبر واتساب، أو ملء نموذج حجز الزيارة المنزلية بالموقع لتنسيق وصول الفني فوراً.
           </div>
         </div>
       </div>
@@ -826,13 +829,13 @@
   <footer class="bg-brandDark text-slate-400 py-10 px-4 border-t border-slate-800 text-center text-xs">
     <div class="max-w-6xl mx-auto space-y-3">
       <div class="font-extrabold text-white text-base">
-        صيانة أجهزة وايت ويل White Whale | مركز خدمة معتمد
+        صيانة أجهزة وايت ويل White Whale | مركز خدمة وإصلاح فني محلي
       </div>
       <p class="max-w-2xl mx-auto text-slate-500 leading-relaxed">
         مركز إصلاح وصيانة للأجهزة المنزلية وايت ويل (White Whale). خدماتنا منزلية متنقلة في شرق القاهرة، القاهرة، الجيزة والإسكندرية. الأسماء والعلامات التجارية ملك لأصحابها ولتوضيح الملاءمة الفنية فقط.
       </p>
       <div class="text-slate-400">
-        للإتصال المباشر: <a href="tel:01133705723" class="text-sky-400 font-bold hover:underline dir-ltr inline-block">01133705723</a> | واتساب: <a href="https://wa.me/201156174546" target="_blank" class="text-emerald-400 font-bold hover:underline dir-ltr inline-block">+20 11 56174546</a>
+        للاتصال المباشر: <a href="tel:01133705723" class="text-sky-400 font-bold hover:underline dir-ltr inline-block">01133705723</a> | واتساب: <a href="https://wa.me/201156174546" target="_blank" class="text-emerald-400 font-bold hover:underline dir-ltr inline-block">+20 11 56174546</a>
       </div>
       <div class="text-slate-600 pt-2">
         &copy; جميع الحقوق محفوظة لـ صيانة أجهزة وايت ويل - خدمات منزلية متنقلة.
@@ -842,11 +845,15 @@
 
   <!-- Floating Sticky Action Bar -->
   <aside class="fixed bottom-3 left-3 right-3 sm:left-auto sm:right-6 sm:bottom-6 z-50 flex items-center gap-2">
-    <a href="https://wa.me/201156174546?text=مرحباً، أريد طلب صيانة لأجهزة وايت ويل White Whale" target="_blank" class="w-full sm:w-auto flex items-center justify-center gap-3 bg-gradient-to-r from-emerald-600 to-emerald-700 hover:from-emerald-500 hover:to-emerald-600 text-white font-black py-4 px-8 rounded-2xl shadow-2xl transition-all pulsing-wa">
+    <a href="https://wa.me/201156174546" target="_blank" class="flex-1 sm:flex-initial flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-black py-3.5 px-5 rounded-2xl shadow-xl transition-all pulsing-wa">
       <i class="fa-brands fa-whatsapp text-2xl"></i>
+      <span class="text-sm font-bold">واتساب فني</span>
+    </a>
+    <a href="tel:01133705723" class="flex-[1.5] sm:flex-initial flex items-center justify-center gap-2.5 bg-gradient-to-r from-wwBlue to-sky-600 hover:from-wwDarkBlue hover:to-sky-700 text-white font-black py-3.5 px-6 rounded-2xl shadow-2xl transition-all pulsing-call">
+      <i class="fa-solid fa-phone-volume text-lg"></i>
       <div class="text-right">
-        <span class="block text-[10px] text-emerald-200 leading-none">خدمة منزلية فورية</span>
-        <span class="block text-base font-black leading-none dir-ltr">+20 11 56174546</span>
+        <span class="block text-[10px] text-sky-200 leading-none">صيانة منزلية فورية</span>
+        <span class="block text-sm sm:text-base font-black leading-none dir-ltr">01133705723</span>
       </div>
     </a>
   </aside>
@@ -871,30 +878,47 @@
       if (selectElement) {
         selectElement.value = appName;
       }
-      const formSection = document.getElementById('contactFormSection');
+      const formSection = document.getElementById('booking-section');
       if (formSection) {
         formSection.scrollIntoView({ behavior: 'smooth' });
       }
     }
 
-    function sendToWhatsApp(event) {
+    async function handleFormSubmission(event) {
       event.preventDefault();
-      const name = document.getElementById('custName').value;
-      const phone = document.getElementById('custPhone').value;
-      const appliance = document.getElementById('applianceType').value;
-      const area = document.getElementById('areaLocation').value;
-      const issues = document.getElementById('issueDetails').value;
+      const form = event.target;
+      const submitBtn = document.getElementById('submitBtn');
+      const btnText = document.getElementById('btnText');
+      const successBox = document.getElementById('formSuccessMessage');
 
-      const message = `*طلب صيانة وايت ويل White Whale جديد*%0A` +
-                      `------------------%0A` +
-                      `👤 *الاسم:* ${name}%0A` +
-                      `📞 *رقم التليفون:* ${phone}%0A` +
-                      `🛠️ *الجهاز:* ${appliance}%0A` +
-                      `📍 *المنطقة:* ${area}%0A` +
-                      `📝 *تفاصيل العطل:* ${issues || 'غير محدد'}`;
+      btnText.innerText = "جاري الإرسال...";
+      submitBtn.disabled = true;
 
-      const whatsappUrl = `https://wa.me/201156174546?text=${message}`;
-      window.open(whatsappUrl, '_blank');
+      const formData = new FormData(form);
+      try {
+        const response = await fetch(form.action, {
+          method: 'POST',
+          body: formData,
+          headers: {
+            'Accept': 'application/json'
+          }
+        });
+
+        if (response.ok) {
+          successBox.classList.remove('hidden');
+          form.reset();
+          btnText.innerText = "تم إرسال الطلب بنجاح";
+        } else {
+          form.submit();
+        }
+      } catch (error) {
+        form.submit();
+      } finally {
+        setTimeout(() => {
+          btnText.innerText = "إرسال طلب الزيارة المنزلية";
+          submitBtn.disabled = false;
+        }, 4000);
+      }
     }
   </script>
 </body>
